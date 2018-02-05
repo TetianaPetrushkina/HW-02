@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+body {
+	display: block;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	border: 15px solid #2b81ac;
+	background-color: #3399cc;
+	color: #fff;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+.header {
+	margin: 30px;
+	margin-left: 0;
+	font-size: 24px;
+}
+
+.text {
+	text-align: left;
+	margin-top: 25px;
+}
+
+.list {
+	font-size: 0;
+	text-align: center;
+	padding: 0;
+	border: 1px solid #fff;
+}
+
+.list li {
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px 0 15px 0;
+}
+
+.list:hover li:not(:hover) {
+	opacity: 0.6;
+}
+
+.list span {
+	display: block;
+	padding: 10px;
+	opacity: .7;
+}
+
+.big {
+	width: 100%;
+}
+
+.middle {
+	width: 50%;
+}
+
+.small {
+	width: 25%;
+}
+
+.azure {
+	background-color: #3399cc;
+	border: 1px solid #fff;
+}
+
+.jungle {
+	background-color: #33cccc;
+	border: 1px solid #fff;
+}
+
+.plum {
+	background-color: #996699;
+	border: 1px solid #fff;
+}
+
+.red {
+	background-color: #c24747;
+	border: 1px solid #fff;
+}
+
+.orange {
+	background-color: #e2674a;
+	border: 1px solid #fff;
+}
+
+.yellow {
+	background-color: #ffcc66;
+	border: 1px solid #fff;
+}
+
+.sage {
+	background-color: #99cc99;
+	border: 1px solid #fff;
+}
+
+.pine {
+	background-color: #669999;
+	border: 1px solid #fff;
+}
+
+.pink {
+	background-color: #cc6699;
+	border: 1px solid #fff;
+}
+
+.green {
+	background-color: #339966;
+	border: 1px solid #fff;
+}
+
+.orchid {
+	background-color: #666699;
+	border: 1px solid #fff;
+}
